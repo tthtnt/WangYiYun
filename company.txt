@@ -1,0 +1,4 @@
+WordPress的话，基于php，但是工作要用一大半是wordpress自己封装的代码现在就开始学wordpress吧
+1.先把结构搞清楚
+2.主题开发
+3.插件开发
