@@ -1,0 +1,105 @@
+.m-top{
+    position: relative;
+    z-index: 1000;
+    height: 70px;
+    box-sizing: border-box;
+    background: #242424;
+    border-bottom: 1px solid #000;
+}
+.m-top .wrap{
+    width: 1100px;
+    margin: 0 auto;
+}
+.m-top .logo{
+    float: left;
+    width: 176px;
+    height: 69px;
+    background-position: 0 0;
+    /*background-position属性设置背景图像的起始位置*/
+}
+.m-top .logo,.m-nav .cor,.m-nav .hot,.m-srch .srchbg,.m-mail,.m-tophead,.m-topvd{
+    background: url("../img/topbar.png") no-repeat 0 9999px;
+}
+h1{
+    display: block;
+    font-size: 2em;
+    -webkit-margin-before: 0.67em;
+    -webkit-margin-after: 0.67em;
+    /*分别定义h1的上边距和下边距的数值是0.67倍字体高度，如10像素的字，上下边距就是6.7px*/
+    -webkit-margin-start: 0px;
+    -webkit-margin-end: 0px;
+    /*定义左右边距都为0px*/
+    /*相当于css2.0中的
+    p {
+    display: block;
+    margin-top: 1em;
+    margin-bottom: 1em;
+    margin-right: 0px;
+    margin-left: 0px;
+    }
+    */
+    font-weight: bold;
+}
+.m-top .logo a{
+    float: left;
+    width: 157px;
+    height: 100%;
+    padding-right: 20px;
+    text-indent: -9999px;
+    /*将段落第一行缩进-9999px*/
+}
+.m-nav{
+    float: left;
+}
+.m-nav li{
+    position: relative;
+    background-position: right -300px;
+}
+.m-nav a:hover, .m-nav a.z-slt{
+    background: #000;
+    text-decoration: none;
+    color: #fff;
+}
+.m-nav a{
+    padding: 0 19px;
+    text-align: center;
+    line-height: 70px;
+    color: #ccc;
+}
+.m-nav a.z-slt .cor{
+    display: block;
+    position: absolute;
+    left: 50%;
+    top: 64px;
+    width: 12px;
+    height: 7px;
+    margin-left: -6px;
+    overflow: hidden;
+    background-position: -226px 0;
+}
+.m-nav .cor{
+    display: none;
+}
+.m-nav .dot{
+    display: block;
+    position: absolute;
+    top: 24px;
+    left: 54px;
+    width: 6px;
+    height: 6px;
+    border-radius: 6px;
+    background: #C20C0C;
+}
+.m-nav .hot{
+    display: block;
+    position: absolute;
+    top: 21px;
+    left: 100px;
+    width: 28px;
+    height: 19px;
+    background-position: -190px 0;
+}
+sup{
+    vertical-align: super;
+    font-size: smaller;
+}
